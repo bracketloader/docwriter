@@ -104,7 +104,7 @@ More information on running specific tox environments can be found
 
 Regression tests require internet access, `git`, and other FreeType [build
 dependencies](http://git.savannah.gnu.org/cgit/freetype/freetype2.git/tree/README.git), and are
-time-consuming. These tests are largely meant to run on Travis CI, but can also be run locally:
+time-consuming. These tests are primarily intended to run on Travis CI but can also be run locally:
 
 ```bash
 tox -e regression
