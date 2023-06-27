@@ -88,7 +88,7 @@ To test on all supported Python versions:
     tox
     ```
 
-To run specifc tests, use the `-e` argument. For example,
+To run specific tests, use the `-e` argument. For example,
 
 ```bash
 tox -e py37,py38
